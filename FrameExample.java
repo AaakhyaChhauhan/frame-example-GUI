@@ -8,17 +8,17 @@ public class FrameExample {
 
     public FrameExample() {
         f = new Frame("WOW SAMPLE!");
-        b1 = new Button("button 1");
-        b2 = new Button("button 2 ");
-        b3 = new Button("OkIW");
+        b1 = new Button("BUTTON 1");
+        b2 = new Button("BUTTON 2 ");
+        b3 = new Button("BUTTON 3");
        
         tf = new TextField();
     }
 
     public void launchFrame() {
         f.setLayout(new FlowLayout());
-        f.setSize(800, 400);
-        f.setBackground(Color.blue);
+        f.setSize(400, 400);
+        f.setBackground(Color.black);
         
         f.add(b1);
         f.add(b2);
